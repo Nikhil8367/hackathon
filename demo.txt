@@ -2,4 +2,6 @@ this is the link to view the demo of the webpage u can sign up and use the webpa
 there is another file .env which is not uploaded due to security reasons and the app.py is the frontend streamlit and backend.py is the backend which is deployed on stremlit and render respectively access the below link to view the demo of the page sign up for new user
 we also used Mongo DB for the data collection and maintaining
 and Google GEMINI api
+app.pyis fronend streamlit app
+and backend.py is flask backend
   https://study-mate-k9b.streamlit.app/
