@@ -4,4 +4,5 @@ we also used Mongo DB for the data collection and maintaining
 and Google GEMINI api
 app.pyis fronend streamlit app
 and backend.py is flask backend
-  https://study-mate-k9b.streamlit.app/
+video link: https://drive.google.com/file/d/1PXrWyheOnmBKQSSdWm48GoakLFH91Y8l/view?usp=drive_link
+web-app link: https://study-mate-k9b.streamlit.app/
