@@ -1,0 +1,109 @@
+StudyMate - Hackathon Project Document
+
+Project Link: 
+https://study-mate-k9b.streamlit.app/
+1. Project Title
+StudyMate
+2. Theme
+Education and Artificial Intelligence
+3. Team Information
+Team Size: 3 Members
+
+ Roles:
+
+ Backend Developer: API, Database, and Authentication Integration.
+
+ Frontend Developer: Streamlit UI, User Experience.
+
+ AI/ML Developer: AI Answer Extraction using Gemini API.
+
+4. Problem Statement
+Modern students depend heavily on PDF notes, research papers, and e-learning materials. During exams, they spend a lot of time manually searching through hundreds of pages to find specific answers. This leads to:
+
+ - Wasted preparation time.
+ - Inconsistent learning due to irrelevant results from general search engines.
+ - Increased stress levels before exams.
+
+ Current solutions like Google and ChatGPT fail to focus only on the student's own study material, which makes personalized learning difficult. There is a clear need for a tool that connects AI power with personal academic content.
+5. Objective
+To create a personalized AI learning assistant that allows students to:
+
+ - Interact with their own PDF study materials.
+ - Ask questions naturally and receive precise, context-based answers only from their uploaded PDFs.
+ - Reduce search time and enhance exam preparation efficiency.
+6. Proposed Solution
+StudyMate is a web-based AI-powered tool designed to make studying faster and smarter.
+
+ ✅ Students can upload lecture PDFs or research papers.
+ ✅ An AI engine (Gemini API) scans the document and understands the context.
+ ✅ Students ask natural language questions and get accurate answers extracted only from their PDF.
+ ✅ Recently asked questions are saved as a quick revision bank.
+ ✅ Includes an AI chatbot for general study-related queries.
+ ✅ A secure login system ensures each user’s data and Q&A history is private.
+
+ Core Idea: Combine Education + AI + Personalized Study Materials into one seamless platform.
+
+7. Key Features
+📌 PDF Upload & AI-Powered Q&A: Extract answers only from uploaded notes.
+
+ 📌 Personal Revision Bank: Recently asked questions stored for quick access.
+
+ 📌 AI-Powered Chatbot: Helps in additional doubts outside PDFs.
+
+ 📌 Secure Login: Uses MongoDB backend for authentication and data privacy.
+
+ 📌 Multi-Page Responsive Web UI: Clean interface with user-friendly navigation.
+
+ 📌 Fast & Lightweight: Designed for smooth use even on low-end devices.
+
+8. Technology Stack
+Frontend: Streamlit (for interactive web interface)
+
+ Backend: Flask (API and server logic)
+
+ Database: MongoDB (user authentication & Q&A storage)
+
+ AI Engine: Gemini API (answer extraction & context understanding)
+
+ Programming Language: Python
+9. Workflow / Architecture
+1️⃣ Login: User credentials validated and stored securely in MongoDB.
+ 2️⃣ PDF Upload: File is processed and indexed for AI search.
+ 3️⃣ Question Asked: User inputs query in natural language.
+ 4️⃣ AI Processing: Gemini API scans PDF and extracts the most relevant answer.
+ 5️⃣ Response: Displayed instantly, and stored in the Recent Q&A section.
+
+ (Optional: Architecture Diagram can be added in PPT)
+10. Uniqueness and Innovation
+🎯 Focuses strictly on user’s PDFs instead of the internet.
+
+ 🎯 Works like a personal AI tutor for each student.
+
+ 🎯 Combines Q&A + Revision Bank + AI Chatbot in one platform.
+
+ 🎯 Can scale to become a college-wide learning assistant with multiple users.
+11. Future Enhancements
+📌 Multi-PDF comparison and cross-answering.
+
+ 📌 Voice-based questions and speech-based answers.
+
+ 📌 Integration with cloud services (Google Drive, OneDrive).
+
+ 📌 AI-based study analytics and performance tracking.
+
+ 
+📌 Adaptive suggestions based on student’s question history.
+12. Expected Outcome
+✅ Reduce exam stress by cutting down manual searching time.
+
+ ✅ Enhance personalized learning by connecting AI with user’s own notes.
+
+ ✅ Create a scalable educational platform suitable for students and institutions.
+
+ ✅ Offer a practical AI tool that blends with real academic needs.
+13. System Limitations
+Each PDF file uploaded must be 200 MB or less.
+ Files larger than 200 MB will be rejected automatically to maintain performance and avoid processing delays.
+ Supported  file type: .pdf only.
+
+
